@@ -36,6 +36,10 @@ TARGET_BOOTLOADER_BOARD_NAME := evita
 # Kernel
 TARGET_KERNEL_CONFIG := elite_defconfig
 
+# External apps on SD
+TARGET_EXTERNAL_APPS = sdcard0
+
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/evita/bluetooth
 
